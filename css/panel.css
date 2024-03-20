@@ -1,0 +1,288 @@
+.panel {
+
+    display: grid;
+    grid-template-columns: 2fr 11fr;
+
+}
+
+.min-panel {
+    display: grid;
+    grid-template-columns:1fr 13fr;
+    
+}
+
+
+
+
+
+/* the right row of the panel */
+
+
+
+#right .menu {
+
+    font-size: 1em;
+}
+
+#right .menu .user-info {
+    padding: 20px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    transition: .3s;
+    height: 155px;
+}
+
+#right .menu .user-info .img-name {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#right .menu .user-info .img-name img {
+    border-radius: 50%;
+    width: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+
+}
+
+#right .menu .user-info .img-name .name {
+    margin: 0 10px;
+    font-size: .9em;
+    color: #444;
+
+}
+
+#right .menu .user-info .img-name i {
+    color: #444;
+}
+
+#right .menu .user-info .details {
+    padding: 0 5px;
+}
+
+#right .menu .user-info .details .details-item {
+    font-size: 1em;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#right .menu .user-info .details .details-item span {}
+
+
+#right .menu .menu-btns {
+
+}
+
+#right .menu .menu-btns .item {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 30px 20px 0;
+
+}
+
+#right .menu .menu-btns .item:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+
+#right .menu .menu-btns .item i {
+    font-size: 1.4em;
+    color: rgb(49, 167, 167)
+}
+
+#right .menu .menu-btns .item span {
+    
+    margin-right: 25px;
+    color: #444;
+}
+
+#right .menu .menu-btns .item-active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#right .menu .menu-btns .item-active span {
+    color: rgb(49, 167, 167);
+}
+
+
+
+
+
+
+
+/* the left row of the panel */
+
+#panel #left {}
+
+#panel #left .main-box {}
+
+
+#panel #left .main-box header {
+    height: 155px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#panel #left .main-box header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#panel #left .main-box header nav .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel #left .main-box header nav .right .bars {
+    margin: 15px;
+    color: rgb(49, 167, 167);
+    font-size: 2.5em;
+}
+
+#panel #left .main-box header nav .right .search {
+    position: relative;
+    display: inline;
+}
+
+#panel #left .main-box header nav .right input {
+    background-color: rgb(230, 230, 230);
+
+    width: 250px;
+    padding: 6px 6px;
+    padding-left: 35px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+
+#panel #left .main-box header nav .right .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 1.5em;
+    color: rgb(146, 146, 146);
+}
+
+
+
+
+
+#panel #left .main-box header nav .left {}
+
+#panel #left .main-box header nav .left a {
+    font-size: 1.3em;
+    color: #444;
+    margin: 0 14px;
+}
+
+#panel #left .main-box header .header-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+#panel #left .main-box header .header-message h3 {
+    margin: 10px 0;
+}
+
+#panel #left .main-box header .header-message a {
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 2px 8px;
+    background-color: rgb(230, 230, 230);
+
+}
+
+#panel #left .main-box .holder {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+
+
+#panel #left .main-box .row .mini-card-report {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel #left .main-box .row .col-lg-3 .right {
+    background-color: rgb(221, 221, 221);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(49, 167, 167);
+    padding: 25px 15px;
+}
+
+#panel #left .main-box .row .col-lg-3 .right i {}
+
+#panel #left .main-box .row .col-lg-3 .left {
+    background-color: white;
+    padding: 12px 50px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#panel #left .main-box .row .col-lg-3 .left span:first-child {
+    color: rgb(49, 167, 167);
+}
+
+
+
+#panel #left .main-box .ravenue-box {
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+}
+
+#panel #left .main-box .ravenue-box .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #444;
+    padding: 5px 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: rgb(212, 212, 212);
+}
+
+#panel #left .main-box .ravenue-box .head .right {}
+
+
+#panel #left .main-box .ravenue-box .head .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#panel #left .main-box .ravenue-box .head i {
+    margin-right: 15px;
+
+}
+
+#panel #left .main-box .ravenue-box .content {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel #left .main-box .ravenue-box .content #myChart {
+    width: 580px !important;
+    height: 580px !important;
+}

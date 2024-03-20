@@ -1,0 +1,376 @@
+header {
+    font-size: 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+
+}
+
+header nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-right a {
+    color: #444;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+header nav .nav-left {}
+
+header nav .nav-left .register-login-btn {
+    border: solid 2px #6666;
+    padding: 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+header nav .nav-left i {
+    color: #444;
+    font-size: 1.1em;
+
+}
+
+header nav .nav-left a {
+    color: #444;
+    margin: 0 10px;
+}
+
+/* slider section */
+
+.slider {
+    position: relative;
+    font-size: 1em;
+}
+
+.slider .slides {}
+
+.slider .slides .item {
+    position: relative;
+    display: none;
+}
+
+.slider .slides .item img {
+    width: 100%;
+    height: 50vh;
+}
+
+.slider .slides .item span {
+    z-index: 1;
+    color: #222;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+}
+
+.slider .slides .active {
+
+    display: block;
+}
+
+.slider .buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+
+.slider .buttons i {
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider .buttons i:hover {
+    color: rgba(255, 225, 225, .4);
+}
+
+/* product section */
+
+.product-sec-new {
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.shopping-card {
+    text-align: center;
+    box-shadow: 0 2px 8px 0 #666;
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.shopping-card .img-sec {
+    position: relative;
+}
+
+.shopping-card .img-sec img {
+    width: 60%;
+    height: 190px;
+}
+
+.shopping-card .img-sec .hot-offer {
+    background-color: #C34A36;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: .9em;
+}
+
+.shopping-card .img-sec .stars {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #F9F871;
+}
+
+.shopping-card .title {
+    color: #333;
+    margin: 15px;
+}
+
+.shopping-card .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.shopping-card .buttons .right {}
+
+.shopping-card .buttons .right .price {
+    font-weight: bold;
+    color: #666;
+}
+
+.shopping-card .buttons .left {
+    display: flex;
+}
+
+.shopping-card .buttons .left .extended-btn {
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00C9A7;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    border-radius: 25px;
+    transition: .75s;
+
+}
+
+.shopping-card .buttons .left .extended-btn:hover {
+    width: 100px;
+
+}
+
+.shopping-card .buttons .left .extended-btn:hover .b-text {
+    display: block;
+
+}
+
+.shopping-card .buttons .left .extended-btn .b-text {
+    display: none;
+    color: white;
+}
+
+.shopping-card .buttons .left .extended-btn a {}
+
+.shopping-card .buttons .left .extended-btn .b-icon {
+    color: white;
+}
+
+
+/* supper offer section */
+
+.supper-offer-section {
+    padding: 20px;
+    font-size: 1em;
+
+}
+
+.supper-offer-section .supper-offer-box {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+
+.supper-offer-section .banner {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.supper-offer-section .banner img {
+    width: 98%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .6);
+}
+
+
+.supper-offer-section .supper-offer-box-title {
+    background-color: #C34A36;
+    padding: 8px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    display: inline-block;
+
+}
+
+.supper-offer-box .body {}
+
+.supper-offer-box .body .img-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.supper-offer-box .body .img-container img {
+    width: 100%;
+}
+
+.supper-offer-box .body .spesification {
+    padding: 30px 5px;
+}
+
+.supper-offer-box .body .spesification .price-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.supper-offer-box .body .spesification .price-row .price {
+    margin-left: 60px;
+    font-size: 1.2em;
+    color: #444;
+
+}
+
+.supper-offer-box .body .spesification .price-row .offer {
+    color: white;
+    background-color: #C34A36;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+.supper-offer-box .body .spesification .title {
+    margin: 50px 0;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+}
+
+.supper-offer-box .body .spesification .counter-down {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.supper-offer-box .body .spesification .counter-down .seconds {}
+
+.supper-offer-box .body .spesification .counter-down .minutes {}
+
+.supper-offer-box .body .spesification .counter-down .hours {}
+
+.supper-offer-box .body .spesification .remianing-time {
+    color: #777;
+    font-size: .8em;
+}
+
+/* .draggable-list section */
+
+.draggable-list img {
+    width: 70% !important;
+    margin: auto;
+}
+
+.owl-stage-outer {
+    direction: ltr;
+}
+
+.draggable-list .title {
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.draggable-list .title span {
+    font-size: 2em;
+    color: #444;
+    border-bottom: 2px solid #C34A36;
+}
+
+/* .footer-info */
+
+.footer-info {
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(89, 89, 89);
+    padding: 30px;
+
+
+}
+
+footer .row {
+    margin-left: 0;
+}
+
+
+
+.footer-info .about-us .title {
+    font-size: 1.5em;
+}
+
+.footer-info .about-us .content {
+    color: rgb(188, 188, 188);
+    font-size: .9em;
+
+}
+
+
+
+.footer-info .follow-us .title {
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.footer-info .follow-us .content {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+
+.rights {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.product-sec-new>.row{
+   margin: 0;
+}
